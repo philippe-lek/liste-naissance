@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="liste.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>WORKS</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>  
+        </nav>
+    </header>
+    <main>
+    <section class="center">
+    <form>
+        <section class="container">
+            <h1>Ajout d'objet</h1>
+          <section class="inner-container">
+            <label for="name">Nom de l'objet :</label>
+            <input type="text" id="name" name="item_name" required />
+          </section>
+          <section class="inner-container">
+            <label for="avatar">Choose a profile picture:</label>
+            <input type="file"
+                   id="avatar" name="avatar"
+                   accept="image/png, image/jpeg">
+          </section>
+          <section class="inner-container">
+            <label for="categorie-select">Catégorie:</label>
+            <select name="categorie-select" id="categorie-select">
+              <option value="jouets">Jouets</option>
+              <option value="chambre">Chambre</option>
+              <option value="electromenager">Electroménager</option>
+              <option value="nourriture">Nourriture</option>
+              <option value="deplacement">Déplacement</option>
+            </select>
+          </section>
+          <section class="inner-container">
+            <label for="presentation">Présentation</label>
+            <textarea id="presentation"></textarea>
+          </section>
+          <section class="inner-container">
+            <label for="name">Nom de l'objet :</label>
+            <input type="text" id="name" name="item_name" required />
+          </section>
+          <section class="button-container">
+            <button type="submit">Valider</button>
+          </section>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>WORKS</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>  
+        </nav>
+    </footer>
+</body>
+</html>
